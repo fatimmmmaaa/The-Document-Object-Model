@@ -9,3 +9,11 @@ title.style.backgroundColor = "gray";
 title.style.textAlign = "center";
 
 // comsole.log(title);
+
+
+//querySelector 
+const genres = document.querySelectorAll("ul");
+
+genres.forEach(genre => {
+    genre.style.backgroundColor = "pink";
+});
