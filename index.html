@@ -13,17 +13,33 @@
     <div id="buttonContainer"></div>
     <div class="info" id="info"></div>
 
-    <!-- <template id="songTemplate">
-      <li class="song">Song Title</li>
-    </template> -->
 
     <div class="genre">Hip Hop</div>
     <div class="genre">R&B</div>
     <div class="genre">Pop</div>
 
     <form id="songForm">
-        <input type="text" id="song-title" placeholder="Enter song title from list" required minlength="1">
-        <input type="text" id="song-artist" placeholder="Enter artist name from list" required minlength="1">
+        <input type="text" id="songTitle" placeholder="Enter song title from list" required minlength="1">
+        <input type="text" id="songArtist" placeholder="Enter artist name from list" required minlength="1">
+
+        <select id="genre-select" required>
+            <option value="" disabled selected>Select Genre</option>
+            <option value="Pop">Pop</option>
+            <option value="HipHop">HipHop</option>
+            <option value="RnB">RnB</option>
+        </select>
+
+        <select id="" required>
+            <option value="" disabled selected>Select Hip Song</option>
+            <option value="Middle Child">Middle Child</option>
+            <option value="YONKERS">YONKERS</option>
+            <option value="Backseat Freestyle">Backseat Freestyle</option>
+            <option value="Hypnotize">Hypnotize</option>
+            <option value="The Real Slim Shady">The Real Slim Shady</option>
+            <option value="Hail Mary">Hail Mary</option>    
+        </select>
+
+
         <button type="submit">Add Song</button>
         <span id="error" class="error"></span>
     </form>
@@ -62,4 +78,7 @@
 
 
   </body>
-</html>
+</html> -->
+ 
+
+
